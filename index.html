@@ -464,15 +464,12 @@
 
 						var self = this;
 
-            if( typeof self.$urlMap != 'undefined' ) {
-              self.$urlMap.forEach(d => d.remove())
-            }
-
             
+            $(".urlMap").remove()
             let urls = $itemEl.attr("data-urlmap").match(regexURL)
             self.$urlMap = urls ? urls.map(d => {
               let match = d.match(regexMAP)
-              return $( `<a href="${match[1]}" target="_blank">${decodeURIComponent(match[0])}</a>` )
+              return $( `<a href="${match[1]}" class="urlMap" target="_blank">${decodeURIComponent(match[0])}</a>` )
             }) : [];
 
             self.$urlMap.forEach(d => d.appendTo(".og-details"))

@@ -13,8 +13,49 @@
 	height: 250px;
 }
 
+.og-grid li > div.gallery-container,
 .og-grid li > div.gallery-container > img {
   position: relative;
+}
+
+.og-grid li > div.gallery-container .overlay:hover {
+    opacity: 1
+}
+
+.og-grid li > div.gallery-container .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  background-color: #212121
+}
+
+
+.og-grid li > div.gallery-container .overlay h2 {
+  color: #FFF
+}
+
+.og-grid li > div.gallery-container .overlay h3 {
+  color: #DA784D
+}
+
+.main .title {
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.main .description {
+  margin-left: 40px;
 }
 
 
@@ -108,7 +149,7 @@
 .og-details h3 {
 	font-weight: 300;
 	font-size: 52px;
-	padding: 40px 0 10px;
+	padding: 0px 0 5px;
 	margin-bottom: 10px;
 }
 

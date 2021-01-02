@@ -5,10 +5,6 @@
     <link>https://gcalmettes.github.io/projects/</link>
     <description>Recent content on Projects - gcalmettes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://gcalmettes.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://gcalmettes.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

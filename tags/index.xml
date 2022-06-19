@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Projects - gcalmettes</title>
-    <link>https://gcalmettes.github.io/projects/tags/</link>
+    <link>https://www.gcalmettes.ml/tags/</link>
     <description>Recent content in Tags on Projects - gcalmettes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://gcalmettes.github.io/projects/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.gcalmettes.ml/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

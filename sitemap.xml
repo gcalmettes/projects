@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.gcalmettes.ml/categories/</loc>
+    <loc>https://gcalmettes.github.io/projects/categories/</loc>
   </url><url>
-    <loc>https://www.gcalmettes.ml/</loc>
+    <loc>https://gcalmettes.github.io/projects/</loc>
   </url><url>
-    <loc>https://www.gcalmettes.ml/tags/</loc>
+    <loc>https://gcalmettes.github.io/projects/tags/</loc>
   </url>
 </urlset>
